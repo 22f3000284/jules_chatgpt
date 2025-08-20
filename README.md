@@ -65,3 +65,6 @@ This PR analyzes our **Monthly Recurring Revenue (MRR) growth** for 2024 against
 
 - `charts/mrr_trend_2024.png` – Quarterly growth with target line  
 - `charts/avg_vs_target.png` – Average vs Industry Target
+## Evidence of LLM Assistance
+This Pull Request was prepared with the help of **ChatGPT Codex**.  
+Reference: https://chatgpt.com/codex/tasks
