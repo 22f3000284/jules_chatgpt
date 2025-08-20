@@ -18,6 +18,7 @@ This PR analyzes our **Monthly Recurring Revenue (MRR) growth** for 2024 against
 
 **Average (2024): 9.68**  
 **Industry Target:** 15
+Average = 9.68
 
 > The script (`analysis/mrr_analysis.py`) reads `data/mrr_growth_2024.csv`, computes metrics, and generates charts in `charts/`.
 
