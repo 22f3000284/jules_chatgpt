@@ -69,9 +69,7 @@ trend_path = os.path.join(charts_dir, "mrr_trend_2024.png")
 plt.savefig(trend_path, dpi=150)
 plt.close()
 
-# -------------------------
-# Visualization 2: Average vs Target (bar chart)
-# -------------------------
+
 plt.figure(figsize=(6, 5))
 labels = ["Average (2024)", "Industry Target"]
 values = [avg_growth, TARGET]
@@ -85,9 +83,6 @@ bar_path = os.path.join(charts_dir, "avg_vs_target.png")
 plt.savefig(bar_path, dpi=150)
 plt.close()
 
-# -------------------------
-# Save a brief summary for the PR
-# -------------------------
 summary = (
     f"Average MRR growth (2024): {avg_growth:.2f}\n"
     f"Industry target: {TARGET:.2f}\n"
